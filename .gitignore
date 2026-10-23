@@ -1,1 +1,671 @@
-/katuhala .html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kautuhala Coding Guild | Official Guild Portal</title>
+</head>
+<body bgcolor="#fbfbfb" text="#1a1a1a" link="#006699" vlink="#551a8b" alink="#ff0000">
+
+  <!-- HEADER & LOGO SECTION -->
+  <header>
+    <table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#eef5f8">
+      <tr>
+        <td width="150" align="center" valign="middle">
+          <!-- Logo image provided in assignment -->
+          <img src="logo.png" alt="Kautuhala Coding Guild Logo" width="120" height="120">
+        </td>
+        <td valign="middle">
+          <h1>कौतूहल · Kautūhala Coding Guild</h1>
+          <p><strong>Curiosité · 探究心 (Tankyūshin) · कौतूहल</strong></p>
+          <p><em>“Projects are our expeditions. Technologies are our tools. Failures are our maps. Curiosity is why we keep moving.”</em> 🏹</p>
+        </td>
+      </tr>
+    </table>
+  </header>
+
+  <!-- TABLE OF CONTENTS / GUILD NAVIGATION -->
+  <nav>
+    <table width="100%" border="1" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+      <tr bgcolor="#dbe9f1">
+        <th align="center"><strong>Expedition Map & Navigation</strong></th>
+      </tr>
+      <tr>
+        <td align="center">
+          <button><h3><a href="#beginning">1. The Beginning</a></h3></button>
+          <button><h3><a href="#philosophy">2. One Philosophy</a></h3></button>
+          <button><h3><a href="#guild">3. The Guild Model</a></h3></button>
+          <button><h3><a href="#party">4. The Guild Party</a></h3></button>
+          <button><h3><a href="#character">5. Character System (Rank & Class)</a></h3></button>
+          <button><h3><a href="#quests">6. Quests</a></h3></button>
+          <button><h3><a href="#engineer-mind">7. The Engineer's Mind</a></h3></button>
+          <button><h3><a href="#break-things">8. Break Things</a></h3></button>
+          <button><h3><a href="#culture">9. Culture & Seed Phase</a></h3></button>
+          <button><h3><a href="#future">10. Where We Go</a></h3></button>
+          <button><h3><a href="#join">Join Guild</a></h3></button>
+        </td>
+      </tr>
+    </table>
+  </nav>
+
+  <hr size="3" color="#333333">
+
+  <main>
+
+    <!-- SECTION 1: THE BEGINNING -->
+    <section id="beginning">
+      <h2>1. 🪧 The Beginning — <em>“I want to know.”</em></h2>
+      <p><strong>कौतूहल</strong> is the permanent name of the guild. Its simplest meaning is:</p>
+      <blockquote>
+        <h3><em>“I want to know.”</em></h3>
+      </blockquote>
+      <p>
+        Curiosity here isn't just watching videos, collecting facts, or saying <em>“that's interesting.”</em><br>
+        It means:
+      </p>
+      <blockquote>
+        <strong>I wonder &rarr; I ask &rarr; I investigate &rarr; I build &rarr; I discover.</strong>
+      </blockquote>
+      
+      <p>The loop never really ends, because every answer can reveal another question:</p>
+      <pre>
+  +------------------+
+  |  &#129300; I wonder      | &lt;-------------------------------+
+  +------------------+                                 |
+           |                                           |
+           v                                           |
+  +------------------+                                 |
+  |  &#10067; I ask         |                                 |
+  +------------------+                                 |
+           |                                           |
+           v                                           |
+  +------------------+                                 |
+  |  &#128269; I investigate |                                 |
+  +------------------+                                 |
+           |                                           |
+           v                                           |
+  +------------------+                                 |
+  |  &#128296; I build       |                                 |
+  +------------------+                                 |
+           |                                           |
+           v                                           |
+  +------------------+                                 |
+  |  &#128161; I discover    | --------------------------------+
+  +------------------+
+      </pre>
+
+      <p>&#129517; <em>Every answer is allowed to create another question.</em></p>
+
+      <h3>Three Expressions of the Same Spirit</h3>
+      <table border="1" cellpadding="8" cellspacing="0" width="80%">
+        <tr bgcolor="#eeeeee">
+          <th>Symbol & Name</th>
+          <th>Meaning</th>
+        </tr>
+        <tr>
+          <td>&#127470;&#127475; <strong>कौतूहल — Kautūhala</strong></td>
+          <td>Need of understanding</td>
+        </tr>
+        <tr>
+          <td>&#127467;&#127479; <strong>Curiosité</strong></td>
+          <td>Curiosity that wants to explore</td>
+        </tr>
+        <tr>
+          <td>&#127471;&#127477; <strong>探究心 — Tankyūshin</strong></td>
+          <td>The spirit of inquiry</td>
+        </tr>
+      </table>
+
+      <p>Our expression of curiosity is <strong>engineering</strong>. We don't just wonder how the machine works.</p>
+      <p><strong>We open it.</strong></p>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 2: ONE PHILOSOPHY - THREE SCALES -->
+    <section id="philosophy">
+      <h2>2. 🌌 One Philosophy — Three Scales</h2>
+      <p>The same idea operates everywhere in the guild:</p>
+      
+      <pre>
+   &#129300; Curiosity
+        |
+        v
+    &#10067; Question
+        |
+        v
+    &#128269; Explore
+        |
+        v
+    &#128296; Build
+        |
+        v
+  &#128165; Break / Observe
+        |
+        v
+   &#129504; Understand
+        |
+        v
+ &#9889; New Capability
+        |
+        +-------&gt; (Returns to &#129300; Curiosity)
+      </pre>
+
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <tr bgcolor="#f0f0f0">
+          <th width="30%">Scale</th>
+          <th>Process Sequence</th>
+        </tr>
+        <tr>
+          <td><strong>🧑 Individual</strong></td>
+          <td><code>Learn &rarr; Build &rarr; Break &rarr; Understand &rarr; Grow</code></td>
+        </tr>
+        <tr>
+          <td><strong>⚔️ Project</strong></td>
+          <td><code>Problem &rarr; Explore &rarr; Prototype &rarr; Engineer &rarr; Deploy &rarr; Feedback</code></td>
+        </tr>
+        <tr>
+          <td><strong>🏹 Guild</strong></td>
+          <td>
+            <pre>
+Curiosity &rarr; Expeditions &rarr; Shared Experience
+                                &darr;
+                            Capability
+                                &darr;
+                          New Territories
+            </pre>
+          </td>
+        </tr>
+      </table>
+
+      <p>These aren't three different philosophies. They are <strong>one machine operating at different scales.</strong></p>
+      <blockquote>
+        &#127793; <em>“We are not trying to know everything. We are trying to become capable of exploring more.”</em>
+      </blockquote>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 3: THE GUILD -->
+    <section id="guild">
+      <h2>3. 🏹 The Guild — One Party, Many Paths</h2>
+      <p>
+        Why call ourselves a <strong>guild</strong>? Because we don't want everyone to become the same kind of engineer.
+        The guild has a shared direction. The members have <strong>autonomous territories.</strong>
+      </p>
+
+      <pre>
+                        &#127993; कौतूहल (Guild Direction)
+                                    |
+          +----------------+--------+--------+----------------+
+          |                |                 |                |
+          v                v                 v                v
+      Member A         Member B          Member C         Member D
+          |                |                 |                |
+          v                v                 v                v
+       🤖 AI        ⛓️ Blockchain        ⚙️ VR/AR          🎮 Games
+          \                |                 |               /
+           +---------------+--------+--------+--------------+
+                                    |
+                                    v
+                           🤝 Collaboration
+      </pre>
+
+      <p>
+        One member may explore AI. Another may dive into VR/AR. Another may disappear into blockchain. Another may build games.
+        Someone might eventually discover a territory that doesn't even have a name yet.
+      </p>
+      <blockquote>
+        🗺️ <strong>Different paths are not fragmentation; they are how the guild expands its map.</strong>
+      </blockquote>
+
+      <table border="1" cellpadding="6" cellspacing="0">
+        <tr>
+          <td><strong>Member</strong></td>
+          <td>Chooses their territory</td>
+        </tr>
+        <tr>
+          <td><strong>Guild</strong></td>
+          <td>Chooses its direction</td>
+        </tr>
+        <tr>
+          <td><strong>Master Architect</strong></td>
+          <td>Guards the compass</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 4: THE GUILD PARTY -->
+    <section id="party">
+      <h2>4. ⚔️ The Guild Party</h2>
+      <p>Every expedition needs people who keep the party moving.</p>
+
+      <pre>
+                          🧭 MASTER ARCHITECT
+                               YASHASVI
+                                  │
+                  ┌───────────────┼───────────────┐
+                  │               │               │
+        ⚔️ DEBUG OFFICER   ⚔️ DEBUG OFFICER   ⚔️ DEBUG OFFICER
+                 BITTU         SURYANSH           RAGNI
+                  │               │               │
+                  └───────────────┬───────────────┘
+                                  │
+                             👥 MEMBERS
+                                  │
+                          ┌───────┴───────┐
+                          │               │
+                        RANK            CLASS
+                          │               │
+                       F &rarr; S          Territory
+                          │
+                        QUESTS
+      </pre>
+
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <thead>
+          <tr bgcolor="#e6f2ff">
+            <th>Role</th>
+            <th>Name(s)</th>
+            <th>Expedition Responsibilities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>🧭 Master Architect</strong></td>
+            <td><strong>Yashasvi</strong></td>
+            <td>
+              <ul>
+                <li>Maintains guild's direction, philosophy, and standards</li>
+                <li>Identifies ambitious quests & guards the long-term character</li>
+                <li><em>Members are explorers, not soldiers: does not micromanage technical decisions.</em></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>⚔️ Debug Officers</strong></td>
+            <td><strong>Bittu, Suryansh, Ragni </strong></td>
+            <td>
+              <ul>
+                <li>Coordination & collaboration across quests</li>
+                <li>Project activity momentum and active debug support</li>
+                <li>Keep expeditions alive without becoming bureaucratic</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>🛡️ Git Staff</strong></td>
+            <td><strong>Irshad, Surbhi</strong></td>
+            <td>
+              <ul>
+                <li>Maintains the guild's technical memory & repositories</li>
+                <li>Version control, contribution workflow, and code review</li>
+                <li>Organization, disaster recovery, and infrastructure friction reduction</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <em>“Infrastructure should remove friction, not judge expeditions.”</em>
+      </blockquote>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 5: CHARACTER SYSTEM -->
+    <section id="character">
+      <h2>5. 🧩 Your Character — Rank + Class</h2>
+      <p>Every adventurer has two independent properties:</p>
+
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <tr bgcolor="#f9f9f9">
+          <th width="50%">⚔️ Rank — <em>“What can you currently do?”</em></th>
+          <th width="50%">🗺️ Class — <em>“Where are you currently exploring?”</em></th>
+        </tr>
+        <tr valign="top">
+          <td>
+            <center>
+              <h3><code>F &rarr; E &rarr; D &rarr; C &rarr; B &rarr; A &rarr; S</code></h3>
+            </center>
+            <ul>
+              <li>Represents <strong>demonstrated capability and contribution</strong>.</li>
+              <li>Not intelligence, not popularity, not human worth.</li>
+              <li>Definitely not how loudly someone talks in Telegram. 😂</li>
+              <li><strong>Current state only:</strong> You can grow, change direction, and level up.</li>
+            </ul>
+            <p><strong>Status:</strong> <em>Still under construction. Criteria will be democratically shaped with the guild members.</em></p>
+          </td>
+          <td>
+            <p><strong>Current Active Classes:</strong></p>
+            <ul>
+              <li>🖥️ Frontend</li>
+              <li>⚙️ Backend</li>
+              <li>🤖 AI</li>
+              <li>⛓️ Blockchain</li>
+              <li>🌐 Web</li>
+              <li>📱 App</li>
+              <li>🔌 Electronics</li>
+              <li>🎨 Civil Design</li>
+              <li><em>...and uncharted territories discovered in the wild.</em></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <br>
+      <table border="1" cellpadding="6" cellspacing="0">
+        <tr bgcolor="#f0f8ff">
+          <th>Independence Rule:</th>
+          <td><code>RANK = Capability</code> &nbsp;|&nbsp; <code>CLASS = Territory</code></td>
+        </tr>
+        <tr>
+          <th>Example Character:</th>
+          <td><code>C Rank &middot; AI</code> | <code>A Rank &middot; Backend</code> | <code>F Rank &middot; Blockchain</code></td>
+        </tr>
+      </table>
+      <p><em>There is no contradiction. You can be powerful in one territory and an absolute novice in another.</em></p>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 6: QUESTS -->
+    <section id="quests">
+      <h2>6. 📜 Quests — Where Curiosity Becomes Real</h2>
+      <p>
+        The Quest Board converts <code>"That looks interesting..."</code> into <code>"Let's build it."</code>
+      </p>
+      
+      <p>
+        &#10060; <strong>Bad Quest:</strong> Learn React<br>
+        &#9989; <strong>Good Quest:</strong> Build something that forces you to understand reactive UI & reconciliation.
+      </p>
+
+      <pre>
+  📜 Quest &rarr; ⚔️ Accept &rarr; 🔨 Build &rarr; 💥 Test/Break &rarr; 🐛 Debug &rarr; 🏆 Complete &rarr; 🧠 Understand
+      </pre>
+
+      <h3>Active Quest Board Preview</h3>
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <tr bgcolor="#eeeeee">
+          <th>Quest Title</th>
+          <th>Type</th>
+          <th>Class Territory</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td><strong>Quest #001: Build the Guild Portal</strong></td>
+          <td>Guild Expedition</td>
+          <td>🌐 Web (HTML Core)</td>
+          <td><font color="green"><strong>IN PROGRESS</strong></font></td>
+        </tr>
+        <tr>
+          <td><strong>Quest #002: Deconstruct the Browser Engine</strong></td>
+          <td>Squad Quest</td>
+          <td>⚙️ Systems / Web</td>
+          <td><font color="#996600"><strong>PLANNING</strong></font></td>
+        </tr>
+        <tr>
+          <td><strong>Quest #003: Autonomous Local Intelligence</strong></td>
+          <td>Solo Expedition</td>
+          <td>🤖 AI</td>
+          <td><font color="#666666"><strong>SCOUTING</strong></font></td>
+        </tr>
+      </table>
+
+      <blockquote>
+        <strong>The Guild Test:</strong> <em>“Would this still be worth building if nobody at college cared about it?”</em><br>
+        If the answer is yes... <strong>now we're talking. 🏹</strong>
+      </blockquote>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 7: THE ENGINEER'S MIND -->
+    <section id="engineer-mind">
+      <h2>7. 🧠 The Engineer's Mind — Model Before Syntax</h2>
+      <p>
+        We don't want people who can only memorize syntax. We want people who can look at a machine and ask: 
+        <strong>“What is actually happening?”</strong>
+      </p>
+
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <tr bgcolor="#f0f0f0">
+          <th width="50%">🔍 Decomposition (Taking Apart)</th>
+          <th width="50%">🔨 Construction (Building Back)</th>
+        </tr>
+        <tr valign="top">
+          <td>
+            <pre>
+Web
+ ↓
+Browser
+ ↓
+Network
+ ↓
+OS
+ ↓
+Hardware
+            </pre>
+            <p>Find the layers. Ask what each layer is doing.</p>
+          </td>
+          <td>
+            <pre>
+Problem
+ ↓
+Architecture
+ ↓
+Implementation
+ ↓
+Testing
+ ↓
+Deployment
+            </pre>
+            <p>Rebuild with deliberate understanding.</p>
+          </td>
+        </tr>
+      </table>
+      <blockquote>
+        🧠 <em>“A software engineer must learn to take systems apart and build systems back up.”</em>
+      </blockquote>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 8: BREAK THINGS & SOCRATIC LEARNING -->
+    <section id="break-things">
+      <h2>8. 🧪 Break Things — That's Where Learning Starts</h2>
+      <p>
+        <strong>You are allowed to be wrong here.</strong> Write terrible code, pick the wrong architecture, crash the program.
+        The enemy is learning nothing from it.
+      </p>
+
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+          <td align="center">
+            <h3>Prediction &ne; Reality &rArr; DATA</h3>
+            <p>The most useful moment is when reality challenges your mental model.</p>
+          </td>
+        </tr>
+      </table>
+
+      <h3>🗣️ Socratic Learning Loop</h3>
+      <pre>
+         +-------&gt; ❓ Question
+         |            |
+         |            v
+         |         🧠 Model
+         |            |
+         |            v
+         |         🗣️ Explain
+         |            |
+         |            v
+         |         🔎 Inspect
+         |            |
+         |            v
+         |         ⚠️ Find Gap
+         |            |
+         +------------+
+      </pre>
+      <p><strong>Goal:</strong> Better models, not simply more information.</p>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 9: CULTURE & VALUES -->
+    <section id="culture">
+      <h2>9. 🌱 The Culture — Small Party, Big Map</h2>
+      
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <tr bgcolor="#e6ffe6">
+          <td>
+            <strong>🌱 The Seed Phase:</strong>
+            Kautuhala has a temporary limit of <strong>20 members</strong>. We are testing our systems, completing our first project, and forging our culture. Once the first project is accomplished, recruitment opens to the wider world!
+          </td>
+        </tr>
+      </table>
+
+      <h3>🛡️ Our Core Values</h3>
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <thead>
+          <tr bgcolor="#eeeeee">
+            <th>Value</th>
+            <th>Principle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🧭 <strong>Curiosity</strong></td>
+            <td>Investigate instead of pretending to know</td>
+          </tr>
+          <tr>
+            <td>🔨 <strong>Creation</strong></td>
+            <td>Learn by making</td>
+          </tr>
+          <tr>
+            <td>🧪 <strong>Experimentation</strong></td>
+            <td>Test ideas against reality</td>
+          </tr>
+          <tr>
+            <td>🧠 <strong>Understanding</strong></td>
+            <td>Seek mechanisms, not memorization</td>
+          </tr>
+          <tr>
+            <td>🏹 <strong>Autonomy</strong></td>
+            <td>Own your intellectual territory</td>
+          </tr>
+          <tr>
+            <td>🤝 <strong>Collaboration</strong></td>
+            <td>Combine different strengths</td>
+          </tr>
+          <tr>
+            <td>🌍 <strong>Vision</strong></td>
+            <td>Look beyond the college bubble</td>
+          </tr>
+          <tr>
+            <td>🔄 <strong>Learning</strong></td>
+            <td>Turn failure into understanding</td>
+          </tr>
+          <tr>
+            <td>🌌 <strong>Possibility</strong></td>
+            <td>Leave room for the unknown</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>What We Protect Against</h3>
+      <p>❌ Rigidity &nbsp;|&nbsp; ❌ Status Games &nbsp;|&nbsp; ❌ Technology Worship &nbsp;|&nbsp; ❌ Conformity &nbsp;|&nbsp; ❌ Internal Politics &nbsp;|&nbsp; ❌ Building Without Purpose</p>
+    </section>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- SECTION 10: EXPEDITION HORIZON -->
+    <section id="future">
+      <h2>10. 🌌 Where Does the Expedition Go?</h2>
+      <pre>
+  🏫 College Guild &rarr; ⚙️ Engineering Collective &rarr; [ 🔬 Research | 🌐 Open Source | 🚀 Products | 🏢 Startup ]
+      </pre>
+      <blockquote>
+        <em>“We do not choose the destination before the journey reveals it.”</em>
+      </blockquote>
+    </section>
+
+    <hr size="3" color="#333333">
+
+    <!-- JOIN THE EXPEDITION (PURE HTML FORM) -->
+    <section id="join">
+      <h2>🏹 Enlist for the Expedition</h2>
+      <p>Ready to explore difficult questions and build real systems? Introduce your character:</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend><strong>Adventurer Dossier</strong></legend>
+          <table border="0" cellpadding="6" cellspacing="0">
+            <tr>
+              <td><label for="name"><strong>Codename / Name:</strong></label></td>
+              <td><input type="text" id="name" name="name" size="40" required placeholder="e.g. Neo"></td>
+            </tr>
+            <tr>
+              <td><label for="email"><strong>Communication Frequency (Email):</strong></label></td>
+              <td><input type="email" id="email" name="email" size="40" required placeholder="explorer@kautuhala.org"></td>
+            </tr>
+            <tr>
+              <td><label for="territory"><strong>Starting Territory (Class):</strong></label></td>
+              <td>
+                <select id="territory" name="territory">
+                  <option value="frontend">🖥️ Frontend</option>
+                  <option value="backend">⚙️ Backend</option>
+                  <option value="ai">🤖 Artificial Intelligence</option>
+                  <option value="blockchain">⛓️ Blockchain</option>
+                  <option value="web">🌐 Web Systems</option>
+                  <option value="app">📱 App Development</option>
+                  <option value="uncharted">🧭 Uncharted / Other</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top"><label for="inquiry"><strong>What question keeps you awake?</strong></label></td>
+              <td>
+                <textarea id="inquiry" name="inquiry" rows="4" cols="42" placeholder="Tell us what machine you want to crack open..."></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="checkbox" id="values" name="values" required>
+                <label for="values"><em>I accept that failure is data and curiosity is my compass.</em></label>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="submit" value="Submit Expedition Application">
+                <input type="reset" value="Clear">
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <hr size="1" color="#cccccc">
+
+  <!-- FOOTER -->
+  <footer>
+    <table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#eef5f8">
+      <tr>
+        <td align="center">
+          <p><strong>Curiosité · 探究心 · कौतूहल</strong></p>
+          <p><em>Wonder &rarr; Explore &rarr; Build &rarr; Understand &rarr; Become &rarr; Wonder</em></p>
+          <p><small>&copy; 2026 Kautuhala Coding Guild. Maintained by Git Staff (Irshad & Surbhi). Built with 100% Pure HTML.</small></p>
+          <p><a href="#top">▲ Return to Top of Expedition</a></p>
+        </td>
+      </tr>
+    </table>
+  </footer>
+
+</body>
+</html>
